@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #096D3B;
+}
+#main #media {
+    width: 15%;
+    height: 40px;
+    /* background-color: red; */
+    position: absolute;
+    right: 5vw;
+    top: 91%;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5vw;
+    padding-left: 2.9vw;
+
+
+}
+
+#nav #heading {
+    font-weight: 200;
+    font-size: 1.4vw;
+    font-family: 'General Sans', sans-serif;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+    padding-right: 2.9vw;
+
+}
+#nav1 h4 {
+    font-weight: 200;
+    font-family: 'General Sans', sans-serif;
+}
+#nav1 h4:hover{
+    color: #212121;
+}
+#content img {
+    width: 32%;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+}
+#content h1 {
+    font-size: 16vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: 'General Sans', sans-serif;
+    z-index: 99;
+    color: #fff;
+
+
+}
+#main2 {
+    width: 100%;
+    height: 100%;
+    background-color: #096D3B;
+
+}
+
+#main2 svg {
+    width: 49%;
+    margin-top: -1%;
+    margin-left: 50%;
+    z-index: 100;
+}
+#main2 #cara {
+    position: absolute;
+    top: 125%;
+    left: 66%;
+    font-size: 5vw;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    /* font-weight: 500; */
+}
+#main2 #frap {
+    position: absolute;
+    top: 135%;
+    left: 64%;
+    font-size: 5vw;
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+#main2 h6 {
+    position: absolute;
+    top: 150%;
+    font-size: 1vw;
+    color: black;
+    left: 83%;
+}
+#main2 button {
+    position: absolute;
+    top: 160%;
+    left: 71%;
+    padding: 1vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: #03271b;
+}
+#main2 button:hover{
+    background-color: #03271bc2;
+}
+ #quantity {
+    width: 120px;
+    height: 50px;
+    background-color: rgba(94, 255, 0, 0.575);
+    position: absolute;
+    left: 70.5%;
+    top: 170%;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    display: flex;
+    font-size: 20px;
+    border-radius: 2vw;
+    pointer-events:painted;
+}
+#quantity #minus {
+   
+    color: black;
+    font-size: 30px;
+    
+
+
+
+}
+#quantity #num {
+    color: black;
+
+}
+#quantity #plus {
+    color: black;
+    font-size: 30px;
+
+
+}
+
+
+
+#main3 {
+    width: 100%;
+    height: 100%;
+    background-color: #096D3B;
+
+}
+#main3  #cards {
+    width: 30%;
+    height: 60%;
+    /* background-color: white; */
+    position: absolute;
+    top: 212%;
+    left: 10vw;
+    border-radius: 2vw;
+    padding: 2vw;
+}
+#cards #card1 {
+    width: 100%;
+    height: 35%;
+    border-radius: 2vw;
+
+    background-color: rgba(17, 92, 29, 0.705);
+}
+#cards #card1 #img1 {
+    width: 230px;
+    margin-top:-6vw ;
+    margin-left:1vw ;
+    margin-bottom: 2vw;
+}
+#cards #card1 #img1:hover{
+    width: 234px;
+}
+#cards #card1 h5 {
+    color: black;
+    position: absolute;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    font-size: 1.2vw;
+}
+#cards #card1 h6 {
+    color: black;
+    position: absolute;
+    position: absolute;
+    top: 17%;
+    left: 51%;
+    color: rgb(5, 5, 5);
+    font-size: 1.2vw;
+}
+#cards #card2 {
+    width: 100%;
+    height: 35%;
+    border-radius: 2vw;
+    margin-top: 10vw;
+
+    background-color: rgba(17, 92, 29, 0.705);
+}
+#cards #card2 img {
+    width: 210px;
+    margin-top:-4.5vw ;
+    margin-left:1vw ;
+    margin-bottom: 2vw;
+}
+#cards #card2 h5 {
+    color: black;
+    position: absolute;
+    position: absolute;
+    top: 72%;
+    left: 53%;
+    color: white;
+    font-size: 1vw;
+}
+#cards #card1 button {
+    padding: 0.6vw;
+    color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    border: none;
+    background-color: rgba(113, 233, 113, 0.589);
+    position: absolute;
+    top: 8.8vw;
+    left: 19vw;
+}
+#cards #card2 button {
+    padding: 0.6vw;
+    color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    border: none;
+    background-color: rgba(113, 233, 113, 0.589);
+    position: absolute;
+    top: 28.8vw;
+    left: 19vw;
+}
+#cards #card1 button:hover{
+    background-color: rgba(113, 233, 113, 0.74);
+
+}
+#cards #card2 button:hover{
+    background-color: rgba(113, 233, 113, 0.74);
+
+}
+#cards #card2 h6 {
+    color: black;
+    position: absolute;
+    position: absolute;
+    top: 79%;
+    left: 53%;
+    color: rgb(5, 5, 5);
+    font-size: 1.2vw;
+}
+#cards #card2 img:hover{
+    width: 215px;
+}
+#main4 {
+    width: 100%;
+    height: 100%;
+    background-color: #096D3B;
+
+}
+#main4 #mainimg {
+    width: 20%;
+    margin-top: 15%;
+    margin-left: 3vw;
+}
+#main4 h6 {
+    margin-left: 6vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 200;
+}
+#main4 #imga {
+    width: 7%;
+    position: absolute;
+    top: 307%;
+    left: 19%;
+    opacity: 0;
+}
+#main4 #imgb {
+    width: 7%;
+    position: absolute;
+    top: 345%;
+    left: 26%;
+    opacity: 0;
+}
+#main4 #imgc {
+    width: 7%;
+    position: absolute;
+    top: 374%;
+    left: 19%;
+    opacity: 0;
+}
+#main4 h3 {
+    margin-left: 55%;
+    margin-top: -27%;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    color: #b8eee9;
+
+}
+#main4 h5 {
+    width: 30%;
+    line-height: 2;
+    margin-left: 51%;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+#main4 #logologo {
+    width: 13%;
+    margin-top: 2vw;
+    margin-left: 55%;
+}
+#main5 {
+    width: 100%;
+    height: 100%;
+    background-color: #096D3B;
+
+}
+#main5 #screen {
+    width: 300px;
+    margin-left: 5%;
+    margin-top: 38%;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgb(72, 30, 241);
+}
+#main5 #imgaa {
+    border: none;
+    width: 130px;
+    position: absolute;
+    top: 195vw;
+    left: 39%;
+
+}
+#main5 #imgaa:hover{
+    width: 133px;
+
+}
+#main5 #imgbb:hover{
+    width: 102px;
+
+}
+#main5 #imgcc:hover{
+    width: 123px;
+
+}
+#main5 #imgdd:hover{
+    width: 113px;
+
+}
+#main5 #imgee:hover{
+    width: 113px;
+
+}
+#main5 #imgff:hover{
+    width: 123px;
+
+}
+#main5 #h6a {
+    color: white;
+    position: absolute;
+    top: 207vw;
+    left: 41%;
+    font-size: 1vw;
+}
+#main5 #h6b {
+    color: white;
+    position: absolute;
+    top: 207vw;
+    left: 61%;
+    font-size: 1vw;
+}
+#main5 #h6c {
+    color: white;
+    position: absolute;
+    top: 207vw;
+    left: 82%;
+    font-size: 1vw;
+}
+#main5 #h6d {
+    color: white;
+    position: absolute;
+    top: 229vw;
+    left: 41%;
+    font-size: 1vw;
+}
+#main5 #h6e {
+    color: white;
+    position: absolute;
+    top: 229vw;
+    left: 61%;
+    font-size: 1vw;
+}
+#main5 #h6f {
+    color: white;
+    position: absolute;
+    top: 229vw;
+    left: 82%;
+    font-size: 1vw;
+}
+#main5 #imgbb {
+    border: none;
+    width: 100px;
+    position: absolute;
+    top: 195vw;
+    left: 59%;
+
+}
+#main5 #imgcc {
+    border: none;
+    width: 120px;
+    position: absolute;
+    top: 195vw;
+    left: 79%;
+
+}
+#main5 #imgdd {
+    border: none;
+    width: 110px;
+    position: absolute;
+    top: 218vw;
+    left: 39%;
+
+}
+#main5 #imgee {
+    border: none;
+    width: 110px;
+    position: absolute;
+    top: 218vw;
+    left: 59%;
+
+}
+#main5 #imgff {
+    border: none;
+    width: 121px;
+    position: absolute;
+    top: 218vw;
+    left: 79%;
+
+}
+#main5 #btn11 {
+    padding: 1;
+    color: black;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 445%;
+    left: 40%;
+}
+#main5 #btn11:hover{
+    background-color: green;
+    color: white;
+}
+#main5 #btn22 {
+    padding: 1;
+    color: black;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 445%;
+    left: 60.9%;
+}
+#main5 #btn22:hover{
+    background-color: green;
+    color: white;
+}
+#main5 #btn33 {
+    padding: 1;
+    color: black;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 445%;
+    left: 81.3%;
+}
+#main5 #btn33:hover{
+    background-color: green;
+    color: white;
+}
+#main5 #btn44 {
+    padding: 1;
+    color: black;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 490%;
+    left: 40.5%;
+}
+#main5 #btn44:hover{
+    background-color: green;
+    color: white;
+}
+#main5 #btn55 {
+    padding: 1;
+    color: black;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 490%;
+    left: 60.5%;
+}
+#main5 #btn55:hover{
+    background-color: green;
+    color: white;
+}
+#main5 #btn66 {
+    padding: 1;
+    color: black;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 490%;
+    left: 81%;
+}
+#main5 #btn66:hover{
+    background-color: green;
+    color: white;
+}
+#main5 #longimg {
+    position: absolute;
+    left: 3%;
+    top: 415%;
+    width: 25%;
+}
+#main5 #milkimg {
+    position: absolute;
+    left: 7%;
+    top: 387%;
+    width: 14%;
+    rotate: -180deg;
+}
+#main6 {
+    width: 100%;
+    height: 100%;
+    background-color: #096D3B;
+
+}
+#main6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#main6 h6 {
+    position: absolute;
+    top: 691%;
+    font-size: 1vw;
+    font-weight: 200;
+    right: 9vw;
+}
+#main6 h4 {
+    position: absolute;
+    top: 545%;
+    font-size: 1vw;
+    font-weight: 200;
+    right: 39vw;
+}
+#main6 h1 {
+    position: absolute;
+    top: 549%;
+    font-size: 3vw;
+    font-weight: 100;
+    right: 38.5vw;
+    font-family: 'Switzer', sans-serif;
+}
+#main6 h1:hover{
+    color: #382421;
+}
+#main7 {
+    width: 100%;
+    height: 100%;
+    background-color: #096D3B;
+
+}
+#main7 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
